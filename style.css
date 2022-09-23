@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(bg.jpg);
+    background-size: cover;
+}
+
+.container{
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container form .detail-user{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .detail-user .input-box{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.detail-user .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.detail-user .input-box input{
+    height: 45px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.sex{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+form .submit{
+    height: 50px;
+    margin: 45px 0;
+}
+
+form .submit input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    background: linear-gradient(white,#666666);
+}
+
+form .submit input:hover{
+    background: linear-gradient(#d9d9d9,#404040);
+}
